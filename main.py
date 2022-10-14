@@ -235,7 +235,7 @@ async def nation(ctx, mention):
                   score = str("{:,}".format(y1["data"][i]["points"]))
                   break
                   
-    url = "https://www.nationsatrisk.com/api/alliance/members?page=1"
+    url = "https://www.nationsatrisk.com/api/player/data"
 
     headers = CaseInsensitiveDict()
     headers["Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
