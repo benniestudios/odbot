@@ -14,7 +14,7 @@ url = "https://www.nationsatrisk.com/api/alliance/members?page=1"
 
 headers = CaseInsensitiveDict()
 headers[
-    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTU2OTM4NiwiZXhwIjoxNjY1NjU1Nzg2LCJuYmYiOjE2NjU1NjkzODYsImp0aSI6IkI1UTB3VWZBU0hJdUJkMEEiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.y4EEYC4z0OWwd8GHEvocaxaXeZuqoiaO_0eaXxDGOb0"
+    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
 headers["Content-Type"] = "application/json"
 headers["Content-Length"] = "0"
 
@@ -33,7 +33,7 @@ url = "https://www.nationsatrisk.com/api/alliance/members?page=2"
 
 headers = CaseInsensitiveDict()
 headers[
-    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTU2OTM4NiwiZXhwIjoxNjY1NjU1Nzg2LCJuYmYiOjE2NjU1NjkzODYsImp0aSI6IkI1UTB3VWZBU0hJdUJkMEEiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.y4EEYC4z0OWwd8GHEvocaxaXeZuqoiaO_0eaXxDGOb0"
+    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
 headers["Content-Type"] = "application/json"
 headers["Content-Length"] = "0"
 
@@ -50,7 +50,7 @@ url = "https://www.nationsatrisk.com/api/alliance/members?page=3"
 
 headers = CaseInsensitiveDict()
 headers[
-    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTU2OTM4NiwiZXhwIjoxNjY1NjU1Nzg2LCJuYmYiOjE2NjU1NjkzODYsImp0aSI6IkI1UTB3VWZBU0hJdUJkMEEiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.y4EEYC4z0OWwd8GHEvocaxaXeZuqoiaO_0eaXxDGOb0"
+    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
 headers["Content-Type"] = "application/json"
 headers["Content-Length"] = "0"
 
@@ -127,7 +127,7 @@ async def nation(ctx, mention):
 
   headers = CaseInsensitiveDict()
   headers[
-    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTU2OTM4NiwiZXhwIjoxNjY1NjU1Nzg2LCJuYmYiOjE2NjU1NjkzODYsImp0aSI6IkI1UTB3VWZBU0hJdUJkMEEiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.y4EEYC4z0OWwd8GHEvocaxaXeZuqoiaO_0eaXxDGOb0"
+    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
   headers["Content-Type"] = "application/json"
   headers["Content-Length"] = "0"
 
@@ -146,7 +146,7 @@ async def nation(ctx, mention):
 
   headers = CaseInsensitiveDict()
   headers[
-    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTU2OTM4NiwiZXhwIjoxNjY1NjU1Nzg2LCJuYmYiOjE2NjU1NjkzODYsImp0aSI6IkI1UTB3VWZBU0hJdUJkMEEiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.y4EEYC4z0OWwd8GHEvocaxaXeZuqoiaO_0eaXxDGOb0"
+    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
   headers["Content-Type"] = "application/json"
   headers["Content-Length"] = "0"
 
@@ -163,7 +163,7 @@ async def nation(ctx, mention):
 
   headers = CaseInsensitiveDict()
   headers[
-    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTU2OTM4NiwiZXhwIjoxNjY1NjU1Nzg2LCJuYmYiOjE2NjU1NjkzODYsImp0aSI6IkI1UTB3VWZBU0hJdUJkMEEiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.y4EEYC4z0OWwd8GHEvocaxaXeZuqoiaO_0eaXxDGOb0"
+    "Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
   headers["Content-Type"] = "application/json"
   headers["Content-Length"] = "0"
 
