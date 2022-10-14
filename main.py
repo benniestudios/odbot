@@ -241,7 +241,7 @@ async def nation(ctx, mention):
     headers["Authorization"] = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3d3dy5uYXRpb25zYXRyaXNrLmNvbS9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTY2NTc1MTczNiwiZXhwIjoxNjY1ODM4MTM2LCJuYmYiOjE2NjU3NTE3MzYsImp0aSI6IkFoYTFucm9xSm5QM3FmclkiLCJzdWIiOjI0MDQsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.QnAV_1KnSipM1NDaIowP-O2BTR7ItIufEYLXSYwX0UA"
     headers["Content-Type"] = "application/json"
     headers["Content-Length"] = "0"
-    data = '{"user":name}'
+    data = str({"user":name})
 
     resp = requests.post(url, headers=headers, data=data)
     n1 = resp.text
