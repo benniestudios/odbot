@@ -237,27 +237,27 @@ async def nation(ctx, mention):
                   score = str("{:,}".format(y1["data"][i]["points"]))
                   break
                   
-    url = "https://www.nationsatrisk.com/api/player/data"
+  url = "https://www.nationsatrisk.com/api/player/data"
 
-    headers = CaseInsensitiveDict()
-    headers["Authorization"] = API_TOKEN
-    headers["Content-Type"] = "application/json"
-    headers["Content-Length"] = "0"
-    data = str({"user":name})
+  headers = CaseInsensitiveDict()
+  headers["Authorization"] = API_TOKEN
+  headers["Content-Type"] = "application/json"
+  headers["Content-Length"] = "0"
+  data = str({"user":name})
 
-    resp = requests.post(url, headers=headers, data=data)
-    n1 = resp.text
-    n2 = json.loads(n1)
-    buildings = ""
+  resp = requests.post(url, headers=headers, data=data)
+  n1 = resp.text
+  n2 = json.loads(n1)
+  buildings = ""
 
-    for n3 in n2["buildings"]["military_base"]["buildings"]:
-      buildings += str(n3[0])
+  for n3 in n2["buildings"]["military_base"]["buildings"]:
+    buildings += str(n3[0])
 
 
-    embed = discord.Embed(title="Nation", url="https://www.nationsatrisk.com/nation/overview?user="+name, description="**Username:** " + name + "\n**Nation:** " + nation + "\n**Rank:** #" + rank + "\n**Alliance Rank:** " + alliance_rank + "\n**Score** " + score + "\n**Last Login:** " + ll + "\n**Military Buildings** " + buildings, color=0x00008B)
+  embed = discord.Embed(title="Nation", url="https://www.nationsatrisk.com/nation/overview?user="+name, description="**Username:** " + name + "\n**Nation:** " + nation + "\n**Rank:** #" + rank + "\n**Alliance Rank:** " + alliance_rank + "\n**Score** " + score + "\n**Last Login:** " + ll + "\n**Military Buildings** " + buildings, color=0x00008B)
 
-    embed.set_thumbnail(url=flag)
-    await ctx.respond(embed=embed)
+  embed.set_thumbnail(url=flag)
+  await ctx.respond(embed=embed)
 
 
 keep_alive()  # Starts a webserver to be pinged.
