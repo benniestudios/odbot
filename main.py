@@ -246,7 +246,7 @@ async def nation(ctx, mention):
     resp = requests.post(url, headers=headers, data=data)
     n1 = resp.text
     n2 = json.loads(n1)
-    buildings = n2["buildings"]["military_base"]["buildings"]
+    buildings = n2["buildings"][1]["buildings"]
 
     embed = discord.Embed(title="Nation", url="https://www.nationsatrisk.com/nation/overview?user="+name, description="**Username:** " + name + "\n**Nation:** " + nation + "\n**Rank:** #" + rank + "\n**Alliance Rank:** " + alliance_rank + "\n**Score** " + score + "\n**Last Login:** " + ll + buildings, color=0x00008B)
 
