@@ -415,7 +415,7 @@ async def nation(ctx, mention):
                     flag = str(y1["data"][i]["flag"])
                     score = str("{:,}".format(y1["data"][i]["points"]))
                     break
-                if i > 50:
+                if i > 9:
                     for i in range(0, 100):
                         name = y2["data"][i]["name"]
                         if name == nationuser:
@@ -427,7 +427,7 @@ async def nation(ctx, mention):
                             flag = str(y2["data"][i]["flag"])
                             score = str("{:,}".format(y1["data"][i]["points"]))
                             break
-                        if i > 50:
+                        if i > 19:
                             for i in range(0, 100):
                                 name = y3["data"][i]["name"]
                                 if name == nationuser:
