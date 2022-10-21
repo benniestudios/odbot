@@ -230,6 +230,21 @@ def convert_mention_to_id(mention):
 
 @bot.slash_command()
 async def nation(ctx, mention):
+  
+    url = "https://www.nationsatrisk.com/api/auth/login"
+
+    headers = CaseInsensitiveDict()
+    headers["Content-Type"] = "application/json"
+
+    data = '{"name":"Bennie", "password":"Bigbenie123"}'
+
+
+    theresp = requests.post(url, headers=headers, data=data)
+
+    x10 = theresp.text
+    y10 = json.loads(x10)
+    print(y10)
+    API_TOKEN = "Bearer " + y10["token"]
 
     url = "https://www.nationsatrisk.com/api/alliance/members?page=1"
 
