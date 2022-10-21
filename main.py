@@ -47,7 +47,6 @@ if x1 == """{"error": "user_not_found"}""":
 
   resp = requests.post(url, headers=headers)
   x1 = resp.text
-  return API_TOKEN
 
 y1 = json.loads(x1)
 nations = "**name:** " + y1['data'][0]['name'] + " | **nation:** " + y1[
@@ -94,7 +93,6 @@ if x2 == """{"error": "user_not_found"}""":
 
   resp = requests.post(url, headers=headers)
   x2 = resp.text
-  return API_TOKEN
 
 y2 = json.loads(x2)
 
@@ -138,7 +136,6 @@ if x3 == """{"error": "user_not_found"}""":
 
   resp = requests.post(url, headers=headers)
   x3 = resp.text
-  return API_TOKEN
 
 y3 = json.loads(x3)
 
@@ -269,7 +266,6 @@ async def nation(ctx, mention):
 
       resp = requests.post(url, headers=headers)
       x1 = resp.text
-      return API_TOKEN
   
     y1 = json.loads(x1)
     nations = "**name:** " + y1['data'][0]['name'] + " | **nation:** " + y1[
@@ -317,7 +313,6 @@ async def nation(ctx, mention):
 
       resp = requests.post(url, headers=headers)
       x2 = resp.text
-      return API_TOKEN
   
     y2 = json.loads(x2)
 
@@ -362,7 +357,6 @@ async def nation(ctx, mention):
 
       resp = requests.post(url, headers=headers)
       x3 = resp.text
-      return API_TOKEN
     
     y3 = json.loads(x3)
 
